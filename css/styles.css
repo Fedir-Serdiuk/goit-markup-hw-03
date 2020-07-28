@@ -48,6 +48,8 @@ body {
 
 .flexbox {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* Container and Section */
@@ -58,7 +60,6 @@ body {
   margin-right: auto;
   margin-left: auto;
   outline: 1px solid tomato;
-
   align-items: center;
   justify-content: space-between;
 }
@@ -147,6 +148,15 @@ body {
 .menu-item-contacts:not(:last-child) {
   margin-right: 30px;
   align-items: center;
+}
+
+.principles work:not(:last-child) {
+  margin-right: 30px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* Navigation */
@@ -238,6 +248,35 @@ body {
 .foter {
   color: var(--white-text-color);
 }
+
+.fcn:not(:last-child) {
+  margin-right: 30px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 20px 10px;
+  /* padding-buttom: 15px; */
+}
+
+.fa:not(:last-child) {
+  margin-right: 10px;
+  align-items: center;
+}
+
+.foooter {
+  /* display: flex; */
+  /* text-align: center; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  background-color: #2f303a;
+
+  width: 1200px;
+
+  margin-right: auto;
+  margin-left: auto;
+  outline: 1px solid tomato;
+}
+
 .email,
 .phone {
   color: var(--contacts-text-color);
