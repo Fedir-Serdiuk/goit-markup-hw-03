@@ -61,10 +61,7 @@ body {
   padding-bottom: 280px;
   padding-left: auto;
   padding-right: auto;
-  display: flex;
   text-align: center;
-  align-items: center;
-  justify-content: space-between;
   background-color: #2f303a;
 }
 
@@ -74,14 +71,14 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  /* margin-bottom: 0px;
+  margin-top: 0px; */
 }
-.title-h-one {
+.effective {
   margin: 30px 0px 30px 0px;
   text-align: center;
 }
-
+/* Button */
 .button {
   border-radius: 4px;
   padding: 15px 30px;
@@ -147,13 +144,11 @@ body {
 }
 
 /* Navigation */
-
 .navigation {
   display: flex;
   align-items: center;
   margin-right: auto;
 }
-
 .contacts {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -161,7 +156,6 @@ body {
   line-height: 1.14px;
   letter-spacing: 0.02em;
 }
-
 .link:hover,
 .link:focus,
 .contacts:hover,
@@ -176,7 +170,6 @@ body {
 .principles-title {
   margin-top: 10px;
   margin-bottom: 10px;
-
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -184,7 +177,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .principles-description {
   font-weight: 400;
   font-size: 14px;
@@ -205,11 +197,6 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-/* .workprinc {
-  margin-top: 94px;
-  margin-bottom: 94px;
-} */
 .working:last-child {
   margin-right: 0px;
 }
@@ -226,26 +213,25 @@ body {
 
 /* What do we do section*/
 
-.section-title {
-  margin-top: 0px;
-  margin-bottom: 50px;
-
+.we-doing {
+  margin: 0px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-}
-.work-list {
-  display: flex;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
-.work-list .item {
+.What-are-we-doing {
+  display: flex;
+  padding-bottom: 94px;
+}
+.What-are-we-doing .item {
   width: 370px;
   margin-right: 30px;
 }
-
 .work-list .item:last-child {
   margin-right: 0px;
 }
@@ -261,13 +247,45 @@ body {
 }
 
 /* Our team section*/
-.team-section {
+.ourteam {
   background-color: var(--grey-back-color);
-
+}
+.section-team {
   padding-top: 94px;
+
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team {
+  display: flex;
+  flex-wrap: wrap;
   padding-bottom: 94px;
 }
+.team .staff {
+  margin-right: 30px;
+  /* padding-bottom: 24px; */
+  background-color: var(--white-text-color);
+}
+.staff .member {
+  display: block;
+  margin-bottom: 30px;
+}
 
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team .staff:last-child {
+  margin-right: 0px;
+}
 .team-member-name {
   color: var(--title-text-color);
   font-weight: 500;
@@ -306,7 +324,13 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 20px 20px 10px;
-  /* padding-buttom: 15px; */
+}
+.join {
+  margin-right: 30px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 20px 10px;
 }
 
 .fa:not(:last-child) {
@@ -325,7 +349,6 @@ body {
 
   margin-right: auto;
   margin-left: auto;
-  outline: 1px solid tomato;
 }
 
 .email,
