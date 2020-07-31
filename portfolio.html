@@ -13,226 +13,239 @@
   </head>
 
   <body>
-    <header>
+    <header class="page-header">
       <!--Main Navigation-->
-      <nav>
-        <ul class="site-nav">
-          <li>
-            <a href="./index.html" class="link">
-              <span class="logo-web">Web</span>
-              <span class="logo-studio">Studio</span>
-            </a>
-          </li>
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li>
-            <a href="./portfolio.html" class="link">Портфолио</a>
-          </li>
-          <li><a href="" class="link">Контакты</a></li>
-        </ul>
-      </nav>
 
-      <!--Contacts-->
-      <address class="adress-top">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="contacts"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="contacts">+380961111111</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container flexbox">
+        <nav class="navigation">
+          <ul class="site-nav">
+            <li class="menu-item-studio">
+              <a href="./index.html" class="link">
+                <span class="logo-web">Web</span>
+                <span class="logo-studio">Studio</span>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="./index.html" class="link">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="menu-item"><a href="#" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <!--Contacts-->
+
+        <address class="adress-top">
+          <ul class="site-nav">
+            <li class="menu-item-contacts">
+              <a href="mailto:info@devstudio.com" class="contacts"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="menu-item-contacts">
+              <a href="tel:+380961111111" class="contacts">+380961111111</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <!--Section-->
     <main>
-      <section>
-        <h1 hidden>Наше портфолио проектов</h1>
-        <ul>
-          <li><button type="button" class="button-portfolio">Все</button></li>
-          <li>
-            <button type="button" class="button-portfolio">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="button-portfolio">Приложения</button>
-          </li>
-          <li>
-            <button type="button" class="button-portfolio">Дизайн</button>
-          </li>
-          <li>
-            <button type="button" class="button-portfolio">Маркетинг</button>
-          </li>
-        </ul>
+      <section class="container">
+        <div class="section-portfolio">
+          <h1 hidden>Наше портфолио проектов</h1>
+          <ul class="portfolio-nav">
+            <li class="item">
+              <button type="button" class="button-portfolio">Все</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button-portfolio">Веб-сайты</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button-portfolio">Приложения</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button-portfolio">Дизайн</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button-portfolio">Маркетинг</button>
+            </li>
+          </ul>
 
-        <!--cards-->
-        <ul class="portfolio">
-          <li>
-            <a href="">
-              <img
-                src="./images/img.tehno.1.jpg"
-                alt="Технокряк веб сайт"
-                width="370"
-              />
-              <h2 class="portfolio-title">Технокряк</h2>
-              <p class="portfolio-group">Веб-сайт</p>
-              <p class="portfolio-description">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/img.tehno.2.jpg" alt="Постер" width="370" />
-              <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-group">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                src="./images/img.tehno.3.jpg"
-                alt="Приложение для ресторана"
-                width="370"
-              />
-              <h2 class="portfolio-title">Ресторан Seafood</h2>
-              <p class="portfolio-group">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/img.tehno.4.jpg"
-                alt="Маркетинговый проект"
-                width="370"
-              />
-              <h2 class="portfolio-title">Проект Prime</h2>
-              <p class="portfolio-group">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/img.tehno.5.jpg"
-                alt="Приложение Коробка"
-                width="370"
-              />
-              <h2 class="portfolio-title">Проект Boxes</h2>
-              <p class="portfolio-group">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/img.tehno.6.jpg"
-                alt="Веб сайт про вдохновение"
-                width="370"
-              />
-              <h2 class="portfolio-title">Inspiration has no Borders</h2>
-              <p class="portfolio-group">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/img.tehno.7.jpg" alt="Дизайн" width="370" />
-              <h2 class="portfolio-title">Издание Limited Edition</h2>
-              <p class="portfolio-group">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/img.tehno.8.jpg"
-                alt="Маркетинг проекта Лаб"
-                width="370"
-              />
-              <h2 class="portfolio-title">Проект LAB</h2>
-              <p class="portfolio-group">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/laptop.jpg"
-                alt="Приложение про бизнес"
-                width="370"
-              />
-              <h2 class="portfolio-title">Growing Business</h2>
-              <p class="portfolio-group">Приложение</p>
-            </a>
-          </li>
-        </ul>
+          <!--cards-->
+          <ul class="portfolio">
+            <li class="item">
+              <a href="">
+                <img
+                  src="./images/img.tehno.1.jpg"
+                  alt="Технокряк веб сайт"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Технокряк</h2>
+                <p class="portfolio-group">Веб-сайт</p>
+                <p class="portfolio-description">
+                  Технокряк это современная площадка распространения
+                  коронавируса. Компании используют эту платформу для цифрового
+                  шпионажа и атак на защищённые сервера конкурентов.
+                </p>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#">
+                <img src="./images/img.tehno.2.jpg" alt="Постер" width="370" />
+                <h2 class="portfolio-title">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="portfolio-group">Дизайн</p>
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./images/img.tehno.3.jpg"
+                  alt="Приложение для ресторана"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Ресторан Seafood</h2>
+                <p class="portfolio-group">Приложение</p>
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./images/img.tehno.4.jpg"
+                  alt="Маркетинговый проект"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Проект Prime</h2>
+                <p class="portfolio-group">Маркетинг</p>
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./images/img.tehno.5.jpg"
+                  alt="Приложение Коробка"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Проект Boxes</h2>
+                <p class="portfolio-group">Приложение</p>
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./images/img.tehno.6.jpg"
+                  alt="Веб сайт про вдохновение"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                <p class="portfolio-group">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img src="./images/img.tehno.7.jpg" alt="Дизайн" width="370" />
+                <h2 class="portfolio-title">Издание Limited Edition</h2>
+                <p class="portfolio-group">Дизайн</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/img.tehno.8.jpg"
+                  alt="Маркетинг проекта Лаб"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Проект LAB</h2>
+                <p class="portfolio-group">Маркетинг</p>
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./images/laptop.jpg"
+                  alt="Приложение про бизнес"
+                  width="370"
+                />
+                <h2 class="portfolio-title">Growing Business</h2>
+                <p class="portfolio-group">Приложение</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!--Footer-->
-    <footer class="footer">
-      <!--adress section-->
-      <div>
-        <a href="">
-          <span class="logo-web">Web</span>
-          <span class="logo-studio web-white">Studio</span>
-        </a>
-      </div>
-      <div>
-        <p>
-          <span class="footer-adress">г. Киев, пр-т Леси Украинки, 26 </span
-          ><br />
-          <span class="email">info@devstudio.com </span><br />
-          <span class="phone">+380961111111 </span><br />
-        </p>
-      </div>
-
-      <!--Sosial media section-->
-      <div>
-        <b class="slogan">Присоединяйтесь</b>
-        <ul>
-          <li>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка Инстаграм"
-              ><img src="./images/instagram.svg" alt="Линк на Инстаграм"
-            /></a>
+    <footer class="container last">
+      <div class="footer">
+        <ul class="foot-log">
+          <li class="footweb">
+            <a href="">
+              <span class="logo-web">Web</span>
+              <span class="logo-studio web-white">Studio</span>
+            </a>
           </li>
-          <li>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка Твиттер"
-              ><img src="./images/twitter.black.svg" alt="Линк на Твиттер"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка Фейсбук"
-              ><img src="./images/facebook.black.svg" alt="Линк на Фейсбук"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка Линкедин"
-              ><img src="./images/linkedin.black.svg" alt="Линк на Линкедин"
-            /></a>
+          <li class="footweb">
+            <span class="footer-adress">г. Киев, пр-т Леси Украинки, 26 </span
+            ><br />
+            <span class="email">info@devstudio.com </span><br />
+            <span class="phone">+380961111111 </span><br />
           </li>
         </ul>
+        <div class="foot-join">
+          <div class="footweb slogan">Присоединяйтесь</div>
+          <ul class="foot">
+            <li class="staf">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка Инстаграм"
+                ><img src="./images/instagram.svg" alt="Линк на Инстаграм"
+              /></a>
+            </li>
+            <li class="staf">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка Твиттер"
+                ><img src="./images/twitter.black.svg" alt="Линк на Твиттер"
+              /></a>
+            </li>
+            <li class="staf">
+              <a
+                href="https://facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка Фейсбук"
+                ><img src="./images/facebook.black.svg" alt="Линк на Фейсбук"
+              /></a>
+            </li>
+            <li class="staf">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка Линкедин"
+                ><img src="./images/linkedin.black.svg" alt="Линк на Линкедин"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="footweb slogan">
+            Подпишитесь на рассылку
+          </div>
+          <input type="text" />
+          <button type="button" class="button">Подписаться</button>
+        </div>
       </div>
-      <b class="foter">
-        Подпишитесь на рассылку
-      </b>
-      <input type="text" />
-      <button type="button" class="button">Подписаться</button>
     </footer>
   </body>
 </html>
