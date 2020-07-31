@@ -45,8 +45,7 @@ body {
 }
 
 /* Container and Section */
-.container,
-.title {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -75,7 +74,7 @@ body {
   margin-top: 0px; */
 }
 .effective {
-  margin: 30px 0px 30px 0px;
+  margin: 0px 0px 30px 0px;
   text-align: center;
 }
 /* Button */
@@ -251,11 +250,9 @@ body {
   background-color: var(--grey-back-color);
 }
 .section-team {
-  padding-top: 94px;
-
   margin-top: 0px;
+  padding-top: 94px;
   margin-bottom: 50px;
-
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -263,26 +260,19 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.team {
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 94px;
-}
-.team .staff {
-  margin-right: 30px;
-  /* padding-bottom: 24px; */
-  background-color: var(--white-text-color);
-}
 .staff .member {
   display: block;
   margin-bottom: 30px;
 }
-
-.social {
+.team {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding-bottom: 94px;
 }
-
+.team .staff {
+  margin-right: 30px;
+  background-color: var(--white-text-color);
+}
 .team .staff:last-child {
   margin-right: 0px;
 }
@@ -294,7 +284,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
 .profession {
   font-weight: 400;
   font-size: 16px;
@@ -303,8 +296,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Adress section*/
-.footer {
+/* Adress section Foter */
+.last {
   background: var(--footer-background-color);
 }
 .footer-adress {
@@ -318,37 +311,40 @@ body {
   color: var(--white-text-color);
 }
 
-.fcn:not(:last-child) {
-  margin-right: 30px;
+.footer {
+  display: flex;
   align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
   margin-right: auto;
-  margin-left: auto;
-  padding: 20px 20px 10px;
+}
+.foot {
+  display: flex;
+  align-items: center;
+}
+/* .foot-log {
+  margin-right: 70px;
+} */
+.footweb {
+  padding-bottom: 20px;
+  margin-right: 70px;
+}
+.footweb:last-child {
+  padding-bottom: 0px;
 }
 .join {
-  margin-right: 30px;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 20px 20px 10px;
+  padding-bottom: 20px;
 }
-
-.fa:not(:last-child) {
+.foot-join {
+  margin-right: 94px;
+}
+.foot .staf {
   margin-right: 10px;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-
-.foooter {
-  /* display: flex; */
-  /* text-align: center; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  background-color: #2f303a;
-
-  width: 1200px;
-
-  margin-right: auto;
-  margin-left: auto;
+.foot .staf:last-child {
+  margin-right: 0px;
 }
 
 .email,
