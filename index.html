@@ -54,18 +54,14 @@
     <!--Main Section-->
 
     <main>
-      <section class="hero flexbox">
-        <div class="container title">
-          <h1 class="effective">
-            Эффективные решения для вашего бизнеса
-          </h1>
-          <button type="button" class="button">Заказать услугу</button>
-        </div>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="button">Заказать услугу</button>
       </section>
 
       <!--Work principles-->
 
-      <section>
+      <section class="section-principles">
         <div class="container">
           <h2 hidden>Work principles</h2>
           <ul class="principles">
@@ -120,8 +116,8 @@
 
       <section>
         <div class="container">
-          <h2 class="we-doing">Чем мы занимаемся</h2>
-          <ul class="What-are-we-doing">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="work-list">
             <li class="item">
               <img
                 src="./images/laptop.jpg"
@@ -157,6 +153,7 @@
           <ul class="team">
             <li class="staff">
               <img
+                class="member"
                 src="./images/img.n.k.1.jpg"
                 alt="Николай Кучеренко"
                 width="270"
@@ -205,6 +202,7 @@
 
             <li class="staff">
               <img
+                class="member"
                 src="./images/img.o.i.2.jpg"
                 alt="Ольга Иванова"
                 width="270"
@@ -253,6 +251,7 @@
 
             <li class="staff">
               <img
+                class="member"
                 src="./images/img.a.sh.3.jpg"
                 alt="Андрей Шевченко"
                 width="270"
@@ -301,6 +300,7 @@
 
             <li class="staff">
               <img
+                class="member"
                 src="./images/img.i.n.4.jpg"
                 alt="Иван Николаев"
                 width="270"
@@ -360,7 +360,11 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ссылка на сайт компании"
-                ><img src="./images/ya&go.svg" alt="ссылка на сайт компании" />
+                ><img
+                  src="./images/ya&go.svg"
+                  alt="ссылка на сайт компании"
+                  width="170"
+                />
               </a>
             </li>
             <li class="staff">
@@ -369,7 +373,10 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ссылка на сайт компании"
-                ><img src="./images/company.svg" alt="ссылка на сайт компании"
+                ><img
+                  src="./images/company.svg"
+                  alt="ссылка на сайт компании"
+                  width="170"
               /></a>
             </li>
             <li class="staff">
@@ -381,7 +388,9 @@
                 ><img
                   src="./images/company.next.svg"
                   alt="ссылка на сайт компании"
-              /></a>
+                  width="170"
+                />
+              </a>
             </li>
             <li class="staff">
               <a
@@ -392,6 +401,7 @@
                 ><img
                   src="./images/foster.peters.svg"
                   alt="ссылка на сайт компании"
+                  width="170"
               /></a>
             </li>
             <li class="staff">
@@ -400,7 +410,10 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ссылка на сайт компании"
-                ><img src="./images/brand.svg" alt="ссылка на сайт компании"
+                ><img
+                  src="./images/brand.svg"
+                  alt="ссылка на сайт компании"
+                  width="170"
               /></a>
             </li>
             <li class="staff">
@@ -412,6 +425,7 @@
                 ><img
                   src="./images/company.tag.line.svg"
                   alt="ссылка на сайт компании"
+                  width="170"
               /></a>
             </li>
           </ul>
@@ -420,25 +434,25 @@
     </main>
 
     <!--Footer-->
-    <footer class="container last">
-      <div class="footer">
-        <ul class="foot-log">
-          <li class="footweb">
-            <a href="">
-              <span class="logo-web">Web</span>
-              <span class="logo-studio web-white">Studio</span>
-            </a>
-          </li>
-          <li class="footweb">
-            <span class="footer-adress">г. Киев, пр-т Леси Украинки, 26 </span
-            ><br />
-            <span class="email">info@devstudio.com </span><br />
-            <span class="phone">+380961111111 </span><br />
-          </li>
-        </ul>
-        <div class="foot-join">
-          <div class="footweb slogan">Присоединяйтесь</div>
-          <ul class="foot">
+    <footer class="footer">
+      <div class="container footer-flexbox">
+        <!--adress section-->
+
+        <div class="fadress">
+          <a href="" class="footer-logo">
+            <span class="blue">Web</span>
+            Studio
+          </a>
+          <span class="footer-adress">г. Киев, пр-т Леси Украинки, 26 </span
+          ><br />
+          <span class="email">info@devstudio.com </span><br />
+          <span class="phone">+380961111111 </span><br />
+        </div>
+
+        <!-- Social -->
+        <div class="footer-form">
+          <div class="slogan footer-flexbox">Присоединяйтесь</div>
+          <ul class="footer-list">
             <li class="staf">
               <a
                 href="https://www.instagram.com/"
@@ -478,7 +492,7 @@
           </ul>
         </div>
         <div>
-          <div class="footweb slogan">
+          <div class="slogan footer-flexbox">
             Подпишитесь на рассылку
           </div>
           <input type="text" />

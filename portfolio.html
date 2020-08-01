@@ -84,8 +84,10 @@
                   alt="Технокряк веб сайт"
                   width="370"
                 />
-                <h2 class="portfolio-title">Технокряк</h2>
-                <p class="portfolio-group">Веб-сайт</p>
+                <div class="border">
+                  <h2 class="portfolio-title">Технокряк</h2>
+                  <p class="portfolio-group">Веб-сайт</p>
+                </div>
                 <p class="portfolio-description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -96,10 +98,12 @@
             <li class="item">
               <a href="#">
                 <img src="./images/img.tehno.2.jpg" alt="Постер" width="370" />
-                <h2 class="portfolio-title">
-                  Постер New Orlean vs Golden Star
-                </h2>
-                <p class="portfolio-group">Дизайн</p>
+                <div class="border">
+                  <h2 class="portfolio-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-group">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -109,8 +113,10 @@
                   alt="Приложение для ресторана"
                   width="370"
                 />
-                <h2 class="portfolio-title">Ресторан Seafood</h2>
-                <p class="portfolio-group">Приложение</p>
+                <div class="border">
+                  <h2 class="portfolio-title">Ресторан Seafood</h2>
+                  <p class="portfolio-group">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -120,8 +126,10 @@
                   alt="Маркетинговый проект"
                   width="370"
                 />
-                <h2 class="portfolio-title">Проект Prime</h2>
-                <p class="portfolio-group">Маркетинг</p>
+                <div class="border">
+                  <h2 class="portfolio-title">Проект Prime</h2>
+                  <p class="portfolio-group">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -131,8 +139,10 @@
                   alt="Приложение Коробка"
                   width="370"
                 />
-                <h2 class="portfolio-title">Проект Boxes</h2>
-                <p class="portfolio-group">Приложение</p>
+                <div class="border">
+                  <h2 class="portfolio-title">Проект Boxes</h2>
+                  <p class="portfolio-group">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -142,26 +152,32 @@
                   alt="Веб сайт про вдохновение"
                   width="370"
                 />
-                <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                <p class="portfolio-group">Веб-сайт</p>
+                <div class="border">
+                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-group">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a href="">
                 <img src="./images/img.tehno.7.jpg" alt="Дизайн" width="370" />
-                <h2 class="portfolio-title">Издание Limited Edition</h2>
-                <p class="portfolio-group">Дизайн</p>
+                <div class="border">
+                  <h2 class="portfolio-title">Издание Limited Edition</h2>
+                  <p class="portfolio-group">Дизайн</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img
                   src="./images/img.tehno.8.jpg"
                   alt="Маркетинг проекта Лаб"
                   width="370"
                 />
-                <h2 class="portfolio-title">Проект LAB</h2>
-                <p class="portfolio-group">Маркетинг</p>
+                <div class="border">
+                  <h2 class="portfolio-title">Проект LAB</h2>
+                  <p class="portfolio-group">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -171,8 +187,10 @@
                   alt="Приложение про бизнес"
                   width="370"
                 />
-                <h2 class="portfolio-title">Growing Business</h2>
-                <p class="portfolio-group">Приложение</p>
+                <div class="border">
+                  <h2 class="portfolio-title">Growing Business</h2>
+                  <p class="portfolio-group">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -181,25 +199,26 @@
     </main>
 
     <!--Footer-->
-    <footer class="container last">
-      <div class="footer">
-        <ul class="foot-log">
-          <li class="footweb">
-            <a href="">
-              <span class="logo-web">Web</span>
-              <span class="logo-studio web-white">Studio</span>
-            </a>
-          </li>
-          <li class="footweb">
-            <span class="footer-adress">г. Киев, пр-т Леси Украинки, 26 </span
-            ><br />
-            <span class="email">info@devstudio.com </span><br />
-            <span class="phone">+380961111111 </span><br />
-          </li>
-        </ul>
-        <div class="foot-join">
-          <div class="footweb slogan">Присоединяйтесь</div>
-          <ul class="foot">
+    <footer class="footer">
+      <div class="container footer-flexbox">
+        <!--adress section-->
+
+        <div class="fadress">
+          <a href="" class="footer-logo">
+            <span class="blue">Web</span>
+            Studio
+          </a>
+          <br />
+          <span class="footer-adress">г. Киев, пр-т Леси Украинки, 26 </span
+          ><br />
+          <span class="email">info@devstudio.com </span><br />
+          <span class="phone">+380961111111 </span><br />
+        </div>
+
+        <!-- Social -->
+        <div class="footer-form">
+          <div class="slogan footer-flexbox">Присоединяйтесь</div>
+          <ul class="footer-list">
             <li class="staf">
               <a
                 href="https://www.instagram.com/"
@@ -239,7 +258,7 @@
           </ul>
         </div>
         <div>
-          <div class="footweb slogan">
+          <div class="slogan footer-flexbox">
             Подпишитесь на рассылку
           </div>
           <input type="text" />
