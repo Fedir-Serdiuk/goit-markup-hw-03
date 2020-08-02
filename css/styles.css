@@ -286,8 +286,7 @@ body {
 }
 .team {
   display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
+  justify-content: center;  
   font-size: 0px;
 }
 .team .staff {
