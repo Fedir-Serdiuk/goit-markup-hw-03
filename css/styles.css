@@ -213,7 +213,7 @@ body {
   padding-top: 25px;
   padding-bottom: 55px;
   text-align: center;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 .working {
   margin-right: 30px;
@@ -236,6 +236,7 @@ body {
 .work-list {
   display: flex;
   flex-wrap: wrap;
+  font-size: 0px;
 }
 .work-list .item {
   width: 370px;
@@ -258,11 +259,10 @@ body {
   margin: 0px 0px 30px 0px;
 }
 
-  
 .wwd {
-   padding-bottom: 100px;
+  padding-bottom: 100px;
 }
-}
+
 /* Our team section*/
 .ourteam {
   background-color: var(--grey-back-color);
@@ -287,7 +287,7 @@ body {
 }
 .team {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   font-size: 0px;
 }
 .team .staff {
@@ -300,7 +300,6 @@ body {
 .team-member-name {
   margin-top: 0px;
   margin-bottom: 10px;
-  
 
   color: var(--title-text-color);
   font-weight: 500;
@@ -310,12 +309,12 @@ body {
   letter-spacing: 0.03em;
 }
 .social {
-  display: flex;   
-  justify-content: center; 
-} 
- .social .sociall{
- margin-right: 10px;
- }
+  display: flex;
+  justify-content: center;
+}
+.social .sociall {
+  margin-right: 10px;
+}
 .sociall:last-child {
   margin-right: 0px;
 }
@@ -480,9 +479,9 @@ body {
   margin-bottom: 0px;
 }
 .border {
-  border-left: 1px solid #EEEEEE;
-	border-bottom: 1px solid #EEEEEE;
-	border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 20px;
