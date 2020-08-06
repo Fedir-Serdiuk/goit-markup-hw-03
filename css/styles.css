@@ -40,7 +40,7 @@ body {
   display: flex;
 }
 
-.flexbox {
+.top-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -75,10 +75,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/* .effective {
-  margin-top: 30px;
-  text-align: center;
-} */
+
 /* Button */
 .button {
   border-radius: 4px;
@@ -120,9 +117,10 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .site-nav {
   display: flex;
   margin: none;
@@ -140,6 +138,7 @@ body {
 }
 .adress-top {
   font-style: normal;
+  margin-left: auto;
 }
 .menu-item-contacts:not(:last-child) {
   margin-right: 30px;
@@ -156,7 +155,7 @@ body {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .link:hover,
@@ -292,6 +291,7 @@ body {
 }
 .team .staff {
   margin-right: 30px;
+  padding-bottom: 25px;
   background-color: var(--white-text-color);
 }
 .team .staff:last-child {
@@ -331,9 +331,7 @@ body {
 }
 
 /* Adress section Foter */
-/* .last {
-  background: var(--footer-background-color);
-} */
+
 .footer-flexbox {
   display: flex;
   justify-content: space-between;
@@ -342,40 +340,34 @@ body {
 
 .footer-list {
   display: flex;
-}
-.staf {
-  margin-right: 10px;
-  display: flex;
-  justify-content: center;
-}
-.foot .staf:last-child {
-  margin-right: 0px;
+  justify-content: space-around;
 }
 
 .footer {
   background: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  /* box-sizing: inherit; */
+
+  /* display: flex; */
 }
 
 .footer-logo {
   display: block;
-  margin-bottom: 20px;
-
   color: var(--white-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
+  padding-bottom: 20px;
 }
 
 .footer-logo .blue {
   color: var(--acent-text-color);
 }
 
-.footer-adress,
-.email {
+.footer-adress {
   margin-bottom: 10px;
 
   color: var(--white-text-color);
@@ -385,7 +377,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.phone {
+.phone,
+.email {
   color: var(--contacts-text-color);
   font-weight: 400;
   font-size: 14px;
@@ -418,6 +411,14 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+}
+.staf {
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+.foot .staf:last-child {
+  margin-right: 0px;
 }
 
 /*PORTFOLIO PAGE CSS*/
@@ -462,7 +463,6 @@ body {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  font-size: 0px;
 }
 
 .portfolio .item {
